@@ -1,5 +1,5 @@
 import React, { JSX, useEffect, useState } from 'react';
-import { View, Text, Image, Linking, TouchableOpacity } from 'react-native';
+import { View, Text, Image, ScrollView, Linking, TouchableOpacity } from 'react-native';
 import IconFA from 'react-native-vector-icons/FontAwesome'; // Fa* icons
 import IconFA5 from 'react-native-vector-icons/FontAwesome5'; // Si* icons
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'; // React Native icon, etc.
@@ -48,31 +48,35 @@ const profile = () => {
     ];
 
   return (
-    <View className='flex-1 items-center justify-center bg-background'>
-        <Image source={cleanProfileImg} className='w-[200px] h-[200px] bg-light-100 rounded-full justify-center items-center mb-8' />
-        <Text className='text-light-200 font-extrabold text-lg mb-8' >EMONEFE OVIE EZEKIEL</Text>
-        <Text className='text-white font-semibold text-2xl mb-3 underline underline-offset-8' >ABOUT</Text>
-        <View className="space-y-3 px-5 text-light-100">
-      <Text className="text-base text-light-100">
-        Hi, I’m <Text className="font-bold">Emonefe Ovie Ezekiel</Text>, a passionate <Text className="font-bold">Software Developer</Text> from Delta State, Nigeria but based in Lagos, Nigeria. My current stack includes{' '}
-        {skills.map((item, index) => (
-          <Text key={index} className="font-bold">
-            {item.name}{index < skills.length - 1 ? ', ' : ''}
-          </Text>
-        ))} 
-        {' '}and more.
-      </Text>
-
-      <Text className="text-base text-light-100">
-        I am a proud graduate of <Text className="font-bold">Mathematics and Education</Text>{' '}
-        <IconFA5 name="graduation-cap" size={16} /> from the University of Lagos, Nigeria. During my studies, I conducted impactful research on the role of <Text className="font-bold">OpenAI technologies</Text> in improving <Text className="font-bold">mathematics learning outcomes</Text> for secondary school students.
-      </Text>
-
-      <Text className="text-base text-light-100">
-        Beyond coding, I value innovation and creating solutions that make life easier. Let’s build something amazing together!
-      </Text>
-    </View>
-    </View>
+      <View className='flex-1 bg-background'>
+            <View className='items-center pt-32 justify-center'>
+                <Image source={cleanProfileImg} className='w-[200px] h-[200px] bg-light-100 rounded-full justify-center items-center mb-8' />
+                <Text className='text-light-200 font-extrabold text-lg' >EMONEFE OVIE EZEKIEL</Text>
+            </View>
+            <Text className='text-light-100 mb-3 mt-8 font-semibold text-center text-2xl underline underline-offset-8' >ABOUT</Text>
+            <ScrollView 
+                className='flex-1'
+                contentContainerStyle={{
+                    paddingBottom: 80,
+                }}
+            >
+                <View className="space-y-3 px-5 pb-20 text-white">
+                    <Text className="text-base text-white">
+                        Hi, I’m Emonefe Ovie Ezekiel, a passionate Software Developer from Delta State, Nigeria but based in Lagos, Nigeria. My current stack includes{' '}
+                        {skills.map((item, index) => (
+                        <Text key={index} className="font-bold">
+                            {item.name}{index < skills.length - 1 ? ', ' : ''}
+                        </Text>
+                        ))} 
+                        {' '}and more. I have a strong interest in web and mobile development, and I’m always eager to learn new technologies and improve my skills. I’m particularly fascinated by the potential of AI and how it can be integrated into applications to create innovative solutions.
+                        I am a proud graduate of Mathematics and Education from the University of Lagos, Nigeria. During my studies, I conducted impactful research on the role of OpenAI technologies in improving mathematics learning outcomes for secondary school students. This research not only deepened my understanding of AI's potential in education but also fueled my passion for leveraging technology to solve real-world problems.
+                        Beyond coding, I value innovation and creating solutions that make life easier. Let’s build something amazing together!
+                    </Text>
+                </View>
+            </ScrollView>
+            {/* <View className='h-36 overflow-hidden'>
+            </View> */}
+        </View>
   )
 }
 
