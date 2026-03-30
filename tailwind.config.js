@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./App.tsx", "./src/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./App.tsx", 
+    "./src/**/*.{js,jsx,ts,tsx}", 
+    "./app/**/*.{js,jsx,ts,tsx}", 
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./mini-apps/**/*.{js,jsx,ts,tsx}",
+    "./(tabs)/**/*.{js,jsx,ts,tsx}",
+  ],
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
@@ -12,7 +19,7 @@ module.exports = {
         secondary: "#137FEC",
         normalText: "#94A3B8",
         light: {
-          100: "#D6C6FF",
+        100: "#D6C6FF",
           200: "#A8B5DB",
           300: "#9CA4AB",
         },
