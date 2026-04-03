@@ -12,14 +12,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#05112e",
         boldText: '#F1F5F9',
-        primary: "#0F172ACC",
+        background: "#05112e",
         blueText: '#137FEC',
+        primary: "#0F172ACC",
         secondary: "#137FEC",
         normalText: "#94A3B8",
         light: {
-        100: "#D6C6FF",
+          100: "#D6C6FF",
           200: "#A8B5DB",
           300: "#9CA4AB",
         },
