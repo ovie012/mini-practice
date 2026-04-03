@@ -20,20 +20,6 @@ const ModulesSection = () => {
       icon: "sign-in-alt",
       link: "introComponentSignup",
     },
-    {
-      id: 4,
-      title: "Navigation in React Native",
-      description: "Implement navigation using React Navigation library.",
-      icon: "route",
-      link: "login",
-    },
-    {
-      id: 6,
-      title: "Testing and Debugging",
-      description: "Master testing and debugging strategies for React Native.",
-      icon: "bug",
-      link: "signup",
-    },
   ];
 
   return (
