@@ -45,9 +45,8 @@ const MiniApp = () => {
 
   return (
     <View className="flex-1 bg-background">
-      <AppComponent />
       <TouchableOpacity 
-        className='absolute bottom-5 left-0 mx-8 bg-primary rounded-lg 
+        className='absolute top-16 left-0 mx-4 bg-primary rounded-lg 
         py-3.5 px-3.5 flex flex-row items-center justify-center z-50 w-fit opacity-50'
         onPress={router.back}
       >
@@ -62,6 +61,7 @@ const MiniApp = () => {
           Back
         </Text>
       </TouchableOpacity>
+      <AppComponent />
     </View>
   );
 };
