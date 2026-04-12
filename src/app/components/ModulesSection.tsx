@@ -20,6 +20,13 @@ const ModulesSection = () => {
       icon: "sign-in-alt",
       link: "introComponentSignup",
     },
+    {
+      id: 2,
+      title: "Typing Challenge",
+      description: "Test your typing speed and accuracy with our interactive typing challenge.",
+      icon: "keyboard",
+      link: "typingChallenge",
+    },
   ];
 
   return (

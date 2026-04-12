@@ -5,11 +5,13 @@ import { icons } from '@/constants/icons';
 import login from "./core/login";
 import signup from "./core/signup";
 import introComponentSignup from './core/introComponentSignup';
+import typingChallenge from './core/typingChallenge';
 
 const miniApps: Record<string, React.ComponentType> = {
   login,
   signup,
   introComponentSignup,
+  typingChallenge,
 };
 
 const MiniApp = () => {

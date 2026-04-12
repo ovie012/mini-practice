@@ -11,29 +11,40 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
-
-- Red 400: hsl(0, 100%, 74%) 
-- Green 400: hsl(154, 59%, 51%)
-
-### Accent
-
-- Purple 700: hsl(248, 32%, 49%)
-
 ### Neutral
 
-- Gray 900: hsl(249, 10%, 26%) 
-- Purple 350: hsl(246, 25%, 77%)
+- **Neutral 900**: hsl(0, 0%, 7%)
+- **Neutral 800**: hsl(0, 0%, 15%)
+- **Neutral 500**: hsl(240, 3%, 46%)
+- **Neutral 400**: hsl(240, 1%, 59%)
+- **Neutral 0**: hsl(0, 0%, 100%)
+
+### Blue
+
+- **Blue 600**: hsl(214, 100%, 55%)
+- **Blue 400**: hsl(210, 100%, 65%)
+
+### Red
+
+- **Red 500**: hsl(354, 63%, 57%)
+
+### Green
+
+- **Green 500**: hsl(140, 63%, 57%)
+
+### Yellow
+
+- **Yellow 400**: hsl(49, 85%, 70%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 16px
+- Font size (labels): 16px
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 500, 600, 700
+- Family: [Sora](https://fonts.google.com/specimen/Sora)
+- Weights: 400, 600, 700
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma..
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.
