@@ -36,7 +36,7 @@ const ModulesSection = () => {
           Learning Modules
         </Text>
         <Text className="text-blueText font-semibold uppercase text-xs">
-          {modules.length} active
+          {modules.length} Modules
         </Text>
       </View>
       <FlatList

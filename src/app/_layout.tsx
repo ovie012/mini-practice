@@ -3,13 +3,18 @@ import { Stack } from "expo-router";
 import "./global.css";
 import { StatusBar } from "react-native";
 import { useFonts, Poppins_400Regular, Poppins_500Medium, Poppins_600SemiBold, Poppins_700Bold } from '@expo-google-fonts/poppins';
+import { Sora_400Regular, Sora_500Medium, Sora_600SemiBold, Sora_700Bold } from '@expo-google-fonts/sora';
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     Poppins_400Regular,
     Poppins_500Medium,
     Poppins_600SemiBold,
-    Poppins_700Bold
+    Poppins_700Bold,
+    Sora_400Regular,
+    Sora_500Medium,
+    Sora_600SemiBold,
+    Sora_700Bold,
   });
 
   // if (!fontsLoaded) {
