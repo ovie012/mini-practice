@@ -6,12 +6,14 @@ import login from "./core/login";
 import signup from "./core/signup";
 import introComponentSignup from './core/introComponentSignup';
 import typingChallenge from './core/typingChallenge';
+import restCountriesAPI from './core/restCountriesAPI';
 
 const miniApps: Record<string, React.ComponentType> = {
   login,
   signup,
   introComponentSignup,
   typingChallenge,
+  restCountriesAPI,
 };
 
 const MiniApp = () => {

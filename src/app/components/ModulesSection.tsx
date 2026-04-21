@@ -27,6 +27,13 @@ const ModulesSection = () => {
       icon: "keyboard",
       link: "typingChallenge",
     },
+    {
+      id: 3,
+      title: "REST Countries API with color theme switcher",
+      description: "Test your knowledge of world countries with our interactive API challenge.",
+      icon: "flag-checkered",
+      link: "restCountriesAPI",
+    },
   ];
 
   return (
