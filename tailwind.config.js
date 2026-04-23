@@ -48,6 +48,15 @@ module.exports = {
           GreenShadowOne: "hsl(140, 63%, 57%, 0.4)",
           GreenShadowTwo: "hsl(140, 63%, 57%, 0.1)",
           Yellow400: "hsl(49, 85%, 70%)",
+        },
+        restCountriesAPI: {
+          blue900DarkElements: "hsl(209, 23%, 22%)",
+          blue950DarkBg: "hsl(207, 26%, 17%)",
+          grey950LightText: "hsl(200, 15%, 8%)",
+          grey400LightInput: "hsl(0, 0%, 50%)",
+          grey400LightInputShadow: "hsl(0, 0%, 50%, 0.2)",
+          grey50LightBg: "hsl(0, 0%, 99%)",
+          white: "hsl(0, 100%, 100%)",
         }
       },
       fontFamily: {
@@ -59,6 +68,12 @@ module.exports = {
         soraMedium: ["Sora_500Medium"],
         soraSemiBold: ["Sora_600SemiBold"],
         soraBold: ["Sora_700Bold"],
+        nunitoSansLight: ["NunitoSans_300Light"],
+        nunitoSansRegular: ["NunitoSans_400Regular"],
+        nunitoSansMedium: ["NunitoSans_500Medium"],
+        nunitoSansSemiBold: ["NunitoSans_600SemiBold"],
+        nunitoSansBold: ["NunitoSans_700Bold"],
+        nunitoSansExtraBold: ["NunitoSans_800ExtraBold"],
       },
     },
   },

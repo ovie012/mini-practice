@@ -1,4 +1,4 @@
-import data from "@/data.json";
+import data from "../core-components/typingChallengeComponents/data.json";
 import { View, Text } from 'react-native'
 import { setHighScore, getHighScore } from "../../utils/LocalStorage";
 import React, { useRef, useState, useEffect, use } from 'react'

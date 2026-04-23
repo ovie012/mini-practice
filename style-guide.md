@@ -13,38 +13,33 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- **Neutral 900**: hsl(0, 0%, 7%)
-- **Neutral 800**: hsl(0, 0%, 15%)
-- **Neutral 500**: hsl(240, 3%, 46%)
-- **Neutral 400**: hsl(240, 1%, 59%)
-- **Neutral 0**: hsl(0, 0%, 100%)
-
-### Blue
-
-- **Blue 600**: hsl(214, 100%, 55%)
-- **Blue 400**: hsl(210, 100%, 65%)
-
-### Red
-
-- **Red 500**: hsl(354, 63%, 57%)
-
-### Green
-
-- **Green 500**: hsl(140, 63%, 57%)
-
-### Yellow
-
-- **Yellow 400**: hsl(49, 85%, 70%)
+- Blue 900 (Dark Mode Elements): hsl(209, 23%, 22%)
+- Blue 950 (Dark Mode Background): hsl(207, 26%, 17%)
+- Grey 950 (Light Mode Text): hsl(200, 15%, 8%)
+- Grey 400 (Light Mode Input): hsl(0, 0%, 50%)
+- Grey 50 (Light Mode Background): hsl(0, 0%, 99%)
+- White (Dark Mode Text & Light Mode Elements): hsl(0, 100%, 100%).
 
 ## Typography
 
 ### Body Copy
 
-- Font size (labels): 16px
+- Homepage Items: 14px
+- Detail Page: 16px
 
-### Font
+### Fonts
 
-- Family: [Sora](https://fonts.google.com/specimen/Sora)
-- Weights: 400, 600, 700
+- Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans)
+- Weights: 300, 600, 800
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.
+## Icons
+
+For the icons, you can use a font icon library. Don't worry if the icons that you choose don't look exactly like they do on the design.
+
+Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
